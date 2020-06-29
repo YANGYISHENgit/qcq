@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="tp">
+			<div class="ne">
+				<span>中/Eng</span>
+			</div>
+			<div class="nav">
+				<div class="nav_c">
+					<ul>
+						<li><a href="#">首页</a>	</li>
+						<li>
+							<a href="#">环保政策</a>
+							<ul class="ejcd">
+								<li><a href="#">环保政策</a></li>
+								<li><a href="#">环保政策</a></li>
+								<li><a href="#">环保政策</a></li>
+							</ul>
+						</li>						
+						<li>
+							<a href="#">草原生态</a>
+							<ul class="ejcd">
+								<li><a href="#">草原生态</a></li>
+								<li><a href="#">草原生态</a></li>
+								<li><a href="#">草原生态</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">湿地自然保护区</a>
+							<ul class="ejcd">
+								<li><a href="#">湿地自然保护区</a></li>
+								<li><a href="#">湿地自然保护区</a></li>
+								<li><a href="#">湿地自然保护区</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">野生动物保护区</a>
+							<ul class="ejcd">
+								<li><a href="#">野生动物保护区</a></li>
+								<li><a href="#">野生动物保护区</a></li>
+								<li><a href="#">野生动物保护区</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">森林生态</a>
+							<ul class="ejcd">
+								<li><a href="#">森林生态</a></li>
+								<li><a href="#">森林生态</a></li>
+								<li><a href="#">森林生态</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">全民植树</a>
+							<ul class="ejcd">
+								<li><a href="#">全民植树</a></li>
+								<li><a href="#">全民植树</a></li>
+								<li><a href="#">全民植树</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">绿色故事</a>
+							<ul class="ejcd">
+								<li><a href="#">绿色故事</a></li>
+								<li><a href="#">绿色故事</a></li>
+								<li><a href="#">绿色故事</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/banner-2.jpg" /></div>
+					<div class="swiper-slide"><img src="img/banner-1.jpg" /></div>
+					<div class="swiper-slide"><img src="img/banner-2.jpg" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="sous">
+				<div class="sous1">
+					<input type="text" id="sous1_text" value="" />
+					<input type="button" id="sous1_but" value="搜&nbsp索" />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	//轮播效果
+	var swiper = new Swiper('.swiper-container', {
+			autoplay: true,
+			loop: true,
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'bullets',
+				clickable: true,
+			},
+	});
+</script>
